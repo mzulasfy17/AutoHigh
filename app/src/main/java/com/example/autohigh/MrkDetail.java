@@ -35,7 +35,7 @@ public class MrkDetail extends AppCompatActivity {
                 // Membuat intent untuk membagikan konten
                 Intent shareIntent = new Intent(Intent.ACTION_SEND);
                 shareIntent.setType("text/plain");
-                String shareBody = "Isi pesan yang ingin Anda bagikan di sini";
+                String shareBody = "This is Your Car Choice!";
                 shareIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
 
                 // Memulai aktivitas untuk memilih aplikasi yang akan digunakan untuk berbagi
