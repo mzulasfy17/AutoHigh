@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Koenigsegg"
+    android:background="@drawable/whatsapp_image_2024_03_10_at_10_08_15_pm"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please select the car type!"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:text="" />
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/regera"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/regera"
+        android:layout_margin="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/regera1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regera"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/regera2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Country = Sweden"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Speed = 400KM/H"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volume Engine = 5000 cm3"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/agera"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/agera"
+            android:layout_margin="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/agera1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agera"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/agera2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Country = Sweden"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/agera4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top Speed = 402-443KM/H"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/agera5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volume Engine = 5000 cm3"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/one_1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/one"
+            android:layout_margin="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/one1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ONE:1"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/one2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Country = Sweden"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/one3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top Speed = 405KM/H"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/one4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volume Engine = 5000 cm3"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/ccr4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/ccr"
+            android:layout_margin="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ccr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CCR"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/ccr1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Country = Sweden"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/cc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top Speed = 395KM/H"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/ccr3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volume Engine = 4700 cm3"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/ccx4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/ccx"
+            android:layout_margin="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ccx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CCX"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/ccx1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Country = Sweden"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/ccx3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top Speed = 395-400KM/H"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/ccx2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volume Engine = 4719 cm3"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </LinearLayout>
+        </LinearLayout>
+</ScrollView>
+</LinearLayout>

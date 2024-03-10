@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whatsapp_image_2024_03_10_at_10_08_15_pm"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Select Your car Brand!"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ramadhan Edition"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/lamborgini3"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            app:srcCompat="@drawable/_0240307_145232"
+            android:layout_margin="14dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/lamborgini"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_weight="1"
+            android:text="Lamborghini"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Lamborghini adalah produsen mobil mewah asal Italia yang didirikan oleh Ferruccio Lamborghini pada tahun 1963."
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/koenigsegg3"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            app:srcCompat="@drawable/_0240307_145539"
+            android:layout_margin="20dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/kosong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+        <TextView
+            android:id="@+id/koenigsegg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Koenigsegg"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/koenigsegg2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Koenigsegg adalah produsen mobil super asal Swedia yang didirikan oleh Christian von Koenigsegg pada tahun 1994."
+        android:textColor="@color/black"/>
+</LinearLayout>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/porsche3"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/_0240307_145427"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/kosong2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+    <TextView
+        android:id="@+id/porsche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Porsche"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/porsche2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="
+Porsche adalah produsen mobil sport mewah asal Jerman yang didirikan oleh Ferdinand Porsche pada tahun 1931."
+            android:textColor="@color/black"/>
+
+</LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
