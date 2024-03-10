@@ -3,8 +3,12 @@ package com.example.autohigh;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -28,17 +32,23 @@ public class MrkDetail extends AppCompatActivity {
         TextView Power = findViewById(R.id.detailG);
         Button btnShare = findViewById(R.id.btnShare);
 
-        // Menambahkan OnClickListener ke tombol Share
         btnShare.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                // Membuat intent untuk membagikan konten
                 Intent shareIntent = new Intent(Intent.ACTION_SEND);
+                shareIntent.setType("image/*");
+
+                BitmapDrawable bitmapDrawable = (BitmapDrawable) Image.getDrawable();
+                Bitmap bitmap = bitmapDrawable.getBitmap();
+                String bitmapPath = MediaStore.Images.Media.insertImage(getContentResolver(), bitmap, "title", null);
+                Uri bitmapUri = Uri.parse(bitmapPath);
+                shareIntent.putExtra(Intent.EXTRA_STREAM, bitmapUri);
+
+                Intent shareInten = new Intent(Intent.ACTION_SEND);
                 shareIntent.setType("text/plain");
                 String shareBody = "This is Your Car Choice!";
                 shareIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
 
-                // Memulai aktivitas untuk memilih aplikasi yang akan digunakan untuk berbagi
                 startActivity(Intent.createChooser(shareIntent, "Bagikan melalui"));
             }
         });
